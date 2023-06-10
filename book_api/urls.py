@@ -9,3 +9,5 @@ urlpatterns = [
    path('list/',BookList.as_view()),
    path('<int:pk>',BookDetail.as_view())
 ]
+
+# done
