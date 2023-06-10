@@ -100,3 +100,5 @@ class BookDetail(APIView):
         book=self.get_book_by_pk(pk)
         book.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)    
+    
+    # done
