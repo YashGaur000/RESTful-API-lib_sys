@@ -60,7 +60,7 @@ class BookList(APIView): #inheritance of apiview
         serializer=BookSerializer(books, many=True)
         return Response(serializer.data)
     
-    # def post(self, request):
+    # def post(self, request):      optional
     #     return Response({
     #         'best':'friend'
     #     })
