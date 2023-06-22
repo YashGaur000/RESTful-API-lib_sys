@@ -24,7 +24,7 @@ from django.forms import ValidationError
 #         instance.save()
 #         return instance
 
-# another one to do the same stuff
+# another one to do the same stuff, lets see
 
 class BookSerializer(serializers.ModelSerializer):
     class Meta:
